@@ -145,6 +145,8 @@ p {
 @keyframes pic3 {
     0% {
         transform: translate(0px, 0px);
+        width: 50%;
+        height: 40%;
     }
     12.5% {
         transform: translateY(350px);
