@@ -1,13 +1,21 @@
-.box {
-    transition: 3s;
+.fdiv {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
 }
-/* @media (max-width: 10000px) { 
-    .box {
-        background-color: red;
-    }
+.p1 {
+    color: red;
 }
-@media only screen and (min-width: 1500px) {
-    .box {
-        background-color: blue;
-    }
-} */
+p {
+    height: 0.5%;
+}
+.picdiv {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
