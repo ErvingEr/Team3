@@ -42,11 +42,35 @@
 }
 @media (min-width: 1100px) {
     .container2 {
-        width: 1000px;
+        width: 1100px;
     }
 }
 @media (min-width: 1500px) {
     .container2 {
+        width: 100%;
+    }
+}
+.container3 {
+    transition: 300ms;
+    margin: auto;
+}
+@media (min-width: 500px) {
+    .container3 {
+        width: 500px;
+    }
+}
+@media (min-width: 800px) {
+    .container3 {
+        width: 800px;
+    }
+}
+@media (min-width: 1100px) {
+    .container3 {
+        width: 1100px;
+    }
+}
+@media (min-width: 1500px) {
+    .container3 {
         width: 100%;
     }
 }
