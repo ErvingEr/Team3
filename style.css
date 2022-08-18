@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Top {
+    background-color: blueviolet;
+    width: auto;
+    height: 50vh;
+    display: flex;
+}
+.UG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+.Sidebar {
+    width: auto;
+    height: 100px;
+    border: 1px solid red;
+}
