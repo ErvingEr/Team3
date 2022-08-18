@@ -5,6 +5,7 @@ body {
     background-color: rgb(73, 156, 211);
 }
 .page2 {
+    border: 1px solid;
     position: fixed;
     right: 0;
     z-index: 20;
@@ -26,6 +27,7 @@ body {
     box-shadow: 0px 0px 2px 2px brown;
 }
 .page22 {
+    border: 1px solid;
     transition: 300ms;
     border-radius: 50%;
     color: rgb(234, 255, 0);
@@ -41,11 +43,12 @@ body {
     z-index: 19;
 }
 .page3 {
+    border: 1px solid;
     border-radius: 50%;
     opacity: 0;
     position: fixed;
     right: 0px;
-    top: 100px;
+    top: 10%;
     z-index: 20;
     width: 3%;
     height: 4%;
@@ -62,6 +65,7 @@ body {
     box-shadow: 0px 0px 2px 2px brown;
 }
 .page33 {
+    border: 1px solid;
     transition: 300ms;
     border-radius: 50%;
     color: rgb(234, 255, 0);
@@ -72,9 +76,49 @@ body {
     height: 4%;
     position: fixed;
     right: 0.2%;
-    top: 8.7%;
+    top: 10%;
     background-color: red;
     z-index: 19;
+}
+.page4 {
+    transition: 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    top: 19%;
+    width: 3%;
+    height: 4%;
+    border-radius: 50%;
+    z-index: 20;
+    opacity: 0;
+}
+.page44 {
+    border: 1px solid;
+    transition: 300ms;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0.2%;
+    top: 19%;
+    width: 3%;
+    height: 4%;
+    z-index: 19;
+    color: rgb(234, 255, 0);
+    background-color: red;
+}
+.page4:hover {
+    width: 5%;
+    
+}
+.page4:hover + .page44 {
+    border-radius: 6%;
+    width: 5%;
+    height: 4%;
+    box-shadow: 0px 0px 2px 2px brown;
 }
 .page2:checked ~ .container2{
     width: 100%;
@@ -94,6 +138,12 @@ body {
     z-index: 6;
     width: 100%;
     height: 100vh;
+    opacity: 1;
+}
+.page4:checked ~ .container4 {
+    z-index: 7;
+    width: 100%;
+    height: 200vh;
     opacity: 1;
 }
 .container {
@@ -551,4 +601,11 @@ p {
     100% {
         color: blue;
     }
+}
+.container4 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(73, 156, 211);
+    z-index: 0;
 }
