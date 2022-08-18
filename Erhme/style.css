@@ -7,7 +7,7 @@
 body {
     background-color: rgb(44, 44, 44);
     width: 100vw;
-    height: 330vh;
+    height: 280 vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -21,14 +21,14 @@ body {
     align-items: center;
 }
 
-.aboutme {
+.introduction {
     background-color: rgb(213, 211, 211);
     width: 60%;
     height: 75%;
     display: flex;
 }
 
-.aboutme div {
+.introduction div {
     width: 50%;
     height: 100%;
     display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 .img {
-    width: 340px;
+    width: 450px;
     height: 450px;
     border-radius: 100%;
     box-shadow: 20px 20px 5px 1px white;
@@ -44,7 +44,7 @@ body {
 
 .txt {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
@@ -75,7 +75,7 @@ body {
     }
 
     75% {
-        color: rgb(167, 98, 73);
+        color: rgb(67, 162, 165);
     }
 
     100% {
@@ -91,7 +91,7 @@ body {
 
 .container1 {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +100,7 @@ body {
 
 .skills {
     width: 60%;
-    height: 75%;
+    height: 100%;
 }
 
 .skilltxt {
@@ -125,7 +125,7 @@ body {
 .circle {
     width: 230px;
     height: 230px;
-    background-color: white;
+    background-color: rgb(213, 211, 211);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -136,7 +136,7 @@ body {
     width:250px;
     height:250px;
     border-radius: 100%;
-    background-color: ghostwhite;
+    background-color:rgb (213, 211, 211);
 }
 .a {
     width: 230px;
@@ -166,11 +166,74 @@ body {
     justify-content: center;
     align-items: center;
 }
-.contact {
+.container2 {
     width: 100%;
-    height:100vh;
+    height:75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    width:60%;
+    height:100%;
+    display: flex;
+    background-color: rgb(213, 211, 211);
+}
+.contact1 {
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    height: 80px;
+    font-size: 60px;
+    color: rgb(44, 44, 44);
+}
+.contact1 {
+    gap:10px
+}
+.name {
+    width: 400px;
+    height: 60px;
+    background-color: rgb(213, 211, 211);
+    border-radius: 50px;
+    font-size: 20px;
+    border: 3px solid rgb(44, 44, 44);
+}
+.email {
+    width: 400px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(213, 211, 211);
+    font-size: 20px;
+    border: 3px solid rgb(44, 44, 44);
+}
+.messege {
+    width:400px;
+    height:250px;
+    font-size: 30px;
+    background-color: rgb(213, 211, 211);
+    border: 3px solid rgb(44, 44, 44);
+    border-radius: 20px;
+}
+.button {
+  width:300px;
+  height:80px;
+  border-radius: 30px;
+  background-color: rgb(44, 44, 44);
+  color: rgb(213, 211, 211);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.map {
+    margin-top: 100px;
+    margin-left: 40px;
 }
 .footer {
     width: 100%;
-    height: 30vh
+    height: 30vh;
+    background-color: rgb(92, 25, 25);
 }
