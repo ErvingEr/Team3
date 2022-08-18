@@ -1,0 +1,66 @@
+*{
+    background-color: darkblue;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    border: 10px solid cyan;
+}
+.shapes{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 500px;
+    margin-right: 50px;
+    width: 180px;
+    height: 250px;
+    display: flex;
+}
+.first-shape{
+    width: 736px;
+    height: 736px;
+    display: flex;
+}
+.img{
+    width: 736px;
+    height: 610px;
+    display: flex;
+    justify-content: flex-start;
+}
+.Name{
+    width: 500px;
+    height: 60px;
+    margin: 100px;
+    margin-top: 200px;
+    color: lightblue;
+    display: flex;
+    font-size: 73px;
+}
+.about-me{
+    width: 530px;
+    height: 220px;
+    left: 930px;
+    top: 373px;
+    position: fixed;
+    font-size: 35px;
+    font-weight: 50;
+    color: #fff;
+    margin-top: 250px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue, 0 0 80px blue;
+    }
+  }
+.logo{
+    width: 300px;
+    animation: rotation 8s infinite linear;
+}
+.second-page{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #08B7AC;
+}
