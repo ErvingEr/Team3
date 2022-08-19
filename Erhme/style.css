@@ -7,7 +7,7 @@
 body {
     background-color: rgb(44, 44, 44);
     width: 100vw;
-    height: 280 vh;
+    height: 275vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -36,8 +36,8 @@ body {
 }
 
 .img {
-    width: 450px;
-    height: 450px;
+    width: 80%;
+    height: 70%;
     border-radius: 100%;
     box-shadow: 20px 20px 5px 1px white;
 }
@@ -82,7 +82,53 @@ body {
         color: rgb(0, 0, 0);
     }
 }
-
+svg {
+    width: 256px;
+    height: 256px;
+  }
+  
+  /* SMOKE */
+  #smoke-1 {
+    stroke-dasharray: 0, 10;
+    animation: smoke 6s ease infinite;
+  }
+  
+  #smoke-2 {
+    stroke-dasharray: 0, 10;
+    animation: smoke 6s 0.5s ease infinite;
+  }
+  
+  @keyframes smoke {
+    0% { stroke-dasharray: 0, 10; }
+    50% { stroke-dasharray: 10, 0; }
+    100% { stroke-dasharray: 10, 0; opacity: 0; }
+  }
+  
+  /* WRITING */
+  #line-1 {
+    opacity: 0;
+    animation: writing 0.5s linear forwards;
+  }
+  
+  #line-2 {
+    opacity: 0;
+    animation: writing 0.5s 1s linear forwards;
+  }
+  
+  #line-3 {
+    opacity: 0;
+    animation: writing 0.5s 1.5s linear forwards;
+  }
+  
+  #line-4 {
+    opacity: 0;
+    animation: writing 0.5s 2s linear forwards;
+  }
+  
+  @keyframes writing {
+    0% { width: 0px; opacity: 1;}
+    100% { width: 14px; opacity: 1;}
+  }
 .pfp {
     display: flex;
     align-items: center;
@@ -118,10 +164,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
 .logos div {
-    width:230px;
+    width: 230px;
     height: 230px;
 }
+
 .circle {
     width: 230px;
     height: 230px;
@@ -130,22 +178,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 300ms;
+    transition: 3s;
 }
+
 .circle:hover {
-    width:250px;
-    height:250px;
-    border-radius: 100%;
-    background-color:rgb (213, 211, 211);
+    transform: rotateY(180deg);
 }
+
 .a {
     width: 230px;
     height: 270px;
-    color:white;
+    color: white;
     font-size: 40px;
     display: flex;
     justify-content: space-around;
 }
+
 .htmllogo {
     width: 200px;
     height: 200px;
@@ -166,74 +214,81 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .container2 {
     width: 100%;
-    height:75vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .contact {
-    width:60%;
-    height:100%;
+    width: 60%;
+    height: 75%;
     display: flex;
     background-color: rgb(213, 211, 211);
 }
+
 .contact1 {
-    padding:40px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
 }
+
 .title {
     height: 80px;
     font-size: 60px;
     color: rgb(44, 44, 44);
 }
+
 .contact1 {
-    gap:10px
+    gap: 10px
 }
+
 .name {
-    width: 400px;
+    width: 500px;
     height: 60px;
     background-color: rgb(213, 211, 211);
     border-radius: 50px;
     font-size: 20px;
     border: 3px solid rgb(44, 44, 44);
 }
+
 .email {
-    width: 400px;
+    width: 500px;
     height: 60px;
     border-radius: 50px;
     background-color: rgb(213, 211, 211);
     font-size: 20px;
     border: 3px solid rgb(44, 44, 44);
 }
+
 .messege {
-    width:400px;
-    height:250px;
+    width: 500px;
+    height: 250px;
     font-size: 30px;
     background-color: rgb(213, 211, 211);
     border: 3px solid rgb(44, 44, 44);
     border-radius: 20px;
 }
+
 .button {
-  width:300px;
-  height:80px;
-  border-radius: 30px;
-  background-color: rgb(44, 44, 44);
-  color: rgb(213, 211, 211);
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 40px;
-}
-.map {
-    margin-top: 100px;
+    width: 350px;
+    height: 80px;
+    border-radius: 30px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(213, 211, 211);
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 40px;
 }
-.footer {
-    width: 100%;
-    height: 30vh;
-    background-color: rgb(92, 25, 25);
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
