@@ -344,6 +344,5 @@ margin-left: 30%;
   .Tugsgul {
     color: white;
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: center;
   }

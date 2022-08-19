@@ -1,7 +1,6 @@
 body {
     position: relative;
     display: flex;
-    justify-content: center;
     background-color: rgb(73, 156, 211);
 }
 .page2 {
@@ -96,7 +95,18 @@ body {
     height: 100vh;
     opacity: 1;
 }
+<<<<<<< HEAD
+=======
+.page4:checked ~ .container4 {
+    transition: 300ms;
+    z-index: 7;
+    width: 200vw;
+    height: 200vh;
+    opacity: 1;
+}
+>>>>>>> 82bb5aab03104073c692bd86c9b9b35bc1e4bbd3
 .container {
+    margin-left: 18% !important;
     position: absolute;
     z-index: 1;
     background-color: rgb(73, 156, 211);
@@ -132,112 +142,141 @@ p {
 }
 @media (min-width: 500px) {
     p {
+        transition: 300ms;
         font-size: 10px;
     }
     .skillpc {
+        transition: 300ms;
         width: 60%;
         height: 30%;
     }
     .skils {
+        transition: 300ms;
         width: 80%;
         height: 30%;
     }
     .footer {
+        transition: 300ms;
         height: 15%;
     }
     .txt {
+        transition: 300ms;
         top: 30%;
         font-size: 20px;
     }
 }
 @media (min-width: 800px) {
     p {
+        transition: 300ms;
         font-size: 15px;
     }
     .skillpc {
+        transition: 300ms;
         width: 50%;
         height: 30%;
     }
     .skils {
+        transition: 300ms;
         width: 100%;
         height: 40%;
     }
     .footer {
+        transition: 300ms;
         height: 22%;
     }
     .txt {
+        transition: 300ms;
         top: 35%;
         font-size: 25px;
     }
 }
 @media (min-width: 1100px) {
     p {
+        transition: 300ms;
         font-size: 20px;
     }
     .skillpc {
+        transition: 300ms;
         width: 60%;
         height: 50%;
     }
     .skils {
+        transition: 300ms;
         width: 80%;
         height: 40%;
     }
     .footer {
+        transition: 300ms;
         height: 30%;
     }
     .txt {
+        transition: 300ms;
         font-size: 35px;
     }
 }
 @media (min-width: 1300px) and (min-height: 800px) {
     p {
+        transition: 300ms;
         font-size: 20px;
     }
     .skillpc {
+        transition: 300ms;
         width: 60%;
         height: 50%;
     }
     .skils {
+        transition: 300ms;
         width: 100%;
         height: 50%;
     }
     .footer {
+        transition: 300ms;
         height: 36%;
     }
     .txt {
+        transition: 300ms;
         font-size: 40px;
     }
 }
 @media (min-width: 1500px) {
     p {
+        transition: 300ms;
         font-size: 25px;
     }
     .skillpc {
+        transition: 300ms;
         width: 70%;
         height: 80%;
     }
     .skils {
+        transition: 300ms;
         width: 100%;
         height: 60%;
     }
     .footer {
+        transition: 300ms;
         height: 45%;
     }
     .txt {
+        transition: 300ms;
         font-size: 50px;
     }
 }
 @media (min-width: 1800px) {
     .footer {
+        transition: 300ms;
         height: 58%;
     }
     .txt {
+        transition: 300ms;
         font-size: 80px;
     }
     p {
+        transition: 300ms;
         font-size: 30px;
     }
     .skils {
+        transition: 300ms;
         width: 100%;
         height: 65%;
     }
@@ -275,21 +314,21 @@ p {
 @media (min-width: 500px) {
     .pic {
         width: 30%;
-        height: 12%;
+        height: 8%;
         box-shadow: 2px 2px 10px 10px rgb(73, 156, 211);
     }
 }
 @media (min-width: 800px) {
     .pic {
         width: 40%;
-        height: 20%;
+        height: 16%;
         box-shadow: 5px 5px 10px 10px rgb(73, 156, 211);
     }
 }
 @media (min-width: 1100px) {
     .pic {
         width: 40%;
-        height: 25%;
+        height: 20%;
         box-shadow: 8px 8px 15px 10px rgb(73, 156, 211);
     }
 }
@@ -552,3 +591,91 @@ p {
         color: blue;
     }
 }
+.container4 {
+    transition: 300ms;
+    position: absolute;
+    background-color: rgb(73, 156, 211);
+    z-index: 0;
+    opacity: 0;
+    background-image: url(https://i.pinimg.com/originals/3f/4b/0e/3f4b0eeaf3bc044b522efbb4a38c9737.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+}
+.starcont {
+    position: relative;
+    width: 5%;
+    height: 10%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: shootingstar 3s ease-in infinite;
+}
+@keyframes shootingstar {
+    0% {
+        transform: translate(0%, 0%);
+        transition-delay: 2s;
+    }
+    50% {
+        transform: translate(2000%, 1000%);
+        transition-delay: 2s;
+    }
+    100% {
+        transform: translate(0%, 0%);
+        transition-delay: 2s;
+    }
+}
+.star {
+    position: absolute;
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+    background-color: rgb(9, 19, 146);
+    box-shadow: 0px 0px 100px 50px rgb(9, 19, 146);
+    z-index: 2;
+}
+.star1 {
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 50px 4px rgb(9, 19, 146);
+}
+.fline {
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: aqua;
+    transform: rotate(90deg);
+    box-shadow: 0px 0px 15px 8px white;
+    animation: fline 2s linear 2s infinite;
+}
+.sline {
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: aqua;
+    box-shadow: 0px 0px 15px 8px white;
+    animation: sline 2s linear infinite;
+ } 
+ @keyframes fline {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+ }
+ @keyframes sline {
+    0% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(450deg);
+    }
+ }
+ .starcont:hover{
+    animation-play-state: paused;
+ }
