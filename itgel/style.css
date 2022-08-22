@@ -262,6 +262,9 @@ body{
         color: blue;
     }
     100%{
-        color: blueviolet;
+        color: darkslateblue;
     }
+}
+.Me{
+    margin-top: 150px;
 }
