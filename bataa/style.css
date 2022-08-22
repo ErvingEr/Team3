@@ -160,7 +160,6 @@ body {
     animation: shootingstar 3s ease-in infinite;
 } 
 .container {
-    margin-left: 18% !important;
     position: absolute;
     z-index: 1;
     background-color: rgb(73, 156, 211);
