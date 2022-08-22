@@ -106,8 +106,7 @@ body {
 }
 >>>>>>> 82bb5aab03104073c692bd86c9b9b35bc1e4bbd3
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 18% !important;
     position: absolute;
     z-index: 1;
     background-color: rgb(73, 156, 211);
@@ -315,21 +314,21 @@ p {
 @media (min-width: 500px) {
     .pic {
         width: 30%;
-        height: 12%;
+        height: 8%;
         box-shadow: 2px 2px 10px 10px rgb(73, 156, 211);
     }
 }
 @media (min-width: 800px) {
     .pic {
         width: 40%;
-        height: 20%;
+        height: 16%;
         box-shadow: 5px 5px 10px 10px rgb(73, 156, 211);
     }
 }
 @media (min-width: 1100px) {
     .pic {
         width: 40%;
-        height: 25%;
+        height: 20%;
         box-shadow: 8px 8px 15px 10px rgb(73, 156, 211);
     }
 }
@@ -592,8 +591,6 @@ p {
         color: blue;
     }
 }
-<<<<<<< HEAD
-=======
 .container4 {
     transition: 300ms;
     position: absolute;
@@ -661,7 +658,7 @@ p {
     height: 1px;
     background-color: aqua;
     box-shadow: 0px 0px 15px 8px white;
-    animation: sline 2s linear 2s infinite;
+    animation: sline 2s linear infinite;
  } 
  @keyframes fline {
     0% {
@@ -679,4 +676,6 @@ p {
         transform: rotate(450deg);
     }
  }
->>>>>>> 82bb5aab03104073c692bd86c9b9b35bc1e4bbd3
+ .starcont:hover{
+    animation-play-state: paused;
+ }
