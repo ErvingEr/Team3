@@ -1,18 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  width: 100vw;
-  height: 420vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .Top {
-<<<<<<< HEAD
     background-color: rgb(80, 13, 118);
     width: 100%;
     height: 50vh;
@@ -76,9 +67,6 @@ border-radius: 8%;
 .Member1:hover {
     display: flex;
     justify-content: center;
-width: 8%;
-height: 20%;
-border:1px solid white;
 background-color: white;
 color: black;
 border-radius: 8%;
@@ -86,9 +74,6 @@ border-radius: 8%;
 .Member2:hover {
     display: flex;
     justify-content: center;
-width: 8%;
-height: 20%;
-border:1px solid white;
 background-color: white;
 color: black;
 border-radius: 8%;
@@ -96,9 +81,6 @@ border-radius: 8%;
 .Member3:hover {
     display: flex;
     justify-content: center;
-width: 8%;
-height: 20%;
-border:1px solid white;
 background-color: white;
 color: black;
 border-radius: 8%;
@@ -106,71 +88,15 @@ border-radius: 8%;
 .Member4:hover {
     display: flex;
     justify-content: center;
-width: 8%;
-height: 20%;
-border:1px solid white;
 background-color: white;
 color: black;
 border-radius: 8%;
+
 }
 .Member5:hover {
     display: flex;
     justify-content: center;
-width: 8%;
-height: 20%;
-border:1px solid white;
 background-color: white;
 color: black;
-border-radius: 8%;
+border-radius: 5%;
 }
-=======
-  background-color: blueviolet;
-  width: auto;
-  height: 50vh;
-  display: flex;
-}
-.UG {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 50px;
-}
-.Sidebar {
-  width: auto;
-  height: 100px;
-  border: 1px solid red;
-}
-.bottom {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.henyugev {
-  width: 100%;
-  height: 95%;
-  background-color: rgb(194, 43, 93);
-}
-.henyugev :first-child {
-    width: 100%;
-    height:25%;
-}
-.bigtitle {
-    
-}
-.footer {
-  width: 100%;
-  height: 5%;
-  background-color: blue;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.footer div {
-  font: caption;
-  color: white;
-}
->>>>>>> 4a49dd8228b3f02c6cb0ba61408db1272876f666
