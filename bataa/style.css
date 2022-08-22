@@ -160,6 +160,7 @@ body {
     animation: shootingstar 3s ease-in infinite;
 } 
 .container {
+    margin-left: 5% !important;
     position: absolute;
     z-index: 1;
     background-color: rgb(73, 156, 211);
@@ -373,21 +374,21 @@ p {
 }
 @media (min-width: 800px) {
     .pic {
-        width: 40%;
+        width: 35%;
         height: 16%;
         box-shadow: 5px 5px 10px 10px rgb(73, 156, 211);
     }
 }
 @media (min-width: 1100px) {
     .pic {
-        width: 40%;
+        width: 35%;
         height: 20%;
         box-shadow: 8px 8px 15px 10px rgb(73, 156, 211);
     }
 }
 @media (min-width: 1300px) and (min-height: 800px) {
     .pic {
-        width: 30%;
+        width: 35%;
         height: 20%;
     }
 }
