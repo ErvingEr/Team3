@@ -1,0 +1,56 @@
+.container{
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+   background-color: rgb(186, 153, 178);
+    
+}
+.img{
+    height: 280px;
+    width: 400px;
+    margin-top: 50px;
+}
+.move55{
+    display: flex;
+   align-items: center;
+   height: 100vh;
+  
+   margin-left: 100px;
+ 
+} 
+.fontsize{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+.meet{
+    display: flex;
+    flex-direction: column;
+
+}
+.emojimove{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color:rgb(244, 232, 251); left:0px; top:0px;}
+    25%  {background-color:rgb(234, 188, 250); left:830px; bottom:0px;}
+    50%  {background-color:rgb(222, 171, 246); left:830px; bottom:600px;}
+    75%  {background-color:rgb(243, 159, 243); left:-160px; bottom:600px;}
+    100% {background-color:rgb(240, 154, 240); left:-160px; bottom:0px;}
+  }
+  .emoji{
+    height: 150px;
+    width: 150px;
+  }
+  
