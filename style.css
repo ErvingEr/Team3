@@ -211,9 +211,7 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #FFDD99;
     flex-direction: column;
-    border: 10px solid brown;
 }
 .Topic{
     display: flex;
@@ -221,8 +219,6 @@ body{
     z-index: 19;
     margin-top: 70px;
     font-size: 50px;
-    border: 5px solid brown;
-    background-color: brown;
 }
 .container {
     display: flex;
