@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 body {
-<<<<<<< HEAD
-    width: 100vw;
-=======
     width: 100%;
->>>>>>> aa4b7c3 (update)
     display: flex;
     flex-direction: column;
 }
