@@ -10,7 +10,7 @@ body{
     margin-left: 0%;
 }
    
-.container{
+.containe{
     width: 24%;
     height: 1100px;
     background-color: plum;
@@ -136,21 +136,21 @@ body{
 .king:hover .bar2{
    width: 0;
 } 
-.move {
+.move88 {
     transform: translateX(0px);
     opacity: 0;
     transition: 1000ms;
    width: 20%;
    margin-top: 10%;
 }
-.container:hover > .move {
+.containe:hover > .move88 {
     transform: translateX(20%);
     opacity: 1;
 } 
 .marketgol{
     height: 1000px;
     width: 1038px;
-    background-color: #fff;
+    background-color: rgb(193, 108, 172);
    
 }
 .market{
@@ -229,4 +229,30 @@ body{
 .luffyimg:hover{
     height: 332px;
     width: 698px;
+    box-shadow: 5px 5px rgb(238, 184, 245), 10px 10px rgb(251, 147, 234), 15px 15px rgb(232, 93, 250);
+}
+.shanksimg:hover{
+    height: 332px;
+    width: 698px;
+    box-shadow: 5px 5px rgb(238, 184, 245), 10px 10px rgb(251, 147, 234), 15px 15px rgb(232, 93, 250);
+}
+.zoroimg:hover{
+    height: 247px;
+    width: 283px;
+    box-shadow: 5px 5px rgb(238, 184, 245), 10px 10px rgb(251, 147, 234), 15px 15px rgb(232, 93, 250);
+}
+.sanjiimg:hover{
+    width: 388px;
+    height:247px ;
+    box-shadow: 5px 5px rgb(238, 184, 245), 10px 10px rgb(251, 147, 234), 15px 15px rgb(232, 93, 250);
+}
+.usoppimg:hover{
+    height: 611px;
+    width: 278px;
+    box-shadow: 5px 5px rgb(238, 184, 245), 10px 10px rgb(251, 147, 234), 15px 15px rgb(232, 93, 250);
+}
+.namiimg:hover{
+    height: 330px;
+    width: 278px;
+    box-shadow: 5px 5px rgb(238, 184, 245), 10px 10px rgb(251, 147, 234), 15px 15px rgb(232, 93, 250);
 }
