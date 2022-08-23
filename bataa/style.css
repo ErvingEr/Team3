@@ -763,3 +763,25 @@ p {
  .starcont:hover{
     animation-play-state: paused;
  }
+ .goback {
+    transition: 300ms;
+    width: 3%;
+    height: 4%;
+    position: fixed;
+    right: 0.2%;
+    top: 30%;
+    background-color: red;
+    z-index: 19;
+    border-radius: 50%;
+    color: rgb(234, 255, 0);
+    border: 1px solid;
+ }
+ .goback:hover {
+    transition: 300ms;
+    width: 5%;
+    height: 4%;
+    border-radius: 6%;
+ }
+ .goback:active {
+    box-shadow: 0px 0px 1px 2px brown;
+ }
