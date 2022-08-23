@@ -97,26 +97,7 @@ background-color: white;
 color: black;
 border-radius: 5%;
 }
-.names {
-    width: 80%;
-    height: 20%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10%;
-    gap: 30px;
-    color: white;
-}
 .names a {
-    color: white;
-}
-.Team-name {
-    width: 20%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 30px;
-    font-family: cursive;
     color: white;
 }
 .UG2 {
