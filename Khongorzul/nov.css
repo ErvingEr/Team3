@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ulaan{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(202, 52, 52);
+}
+.ylaan{
+    height: 100vh;
+    width: 400px;
+    background-color: rgb(239, 66, 66);
+    display: flex;
+
+}
+.burger{
+    background-color: (219, 111, 111);
+    box-shadow: 1px 1px 4px 0 black;
+    position: fixed;
+    width: 58px;
+    z-index: 3;
+    left: 10px;
+    top: 10px;
+}
+.burger .bar{
+    outline: 1px solid rgb(191, 179, 179);
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+   
+}
+.burger .bar .hemjee{
+    background-color: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+.burger .bar .hemjee:before{
+    background-color: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 5px; 
+    transition: all .2s ease-out;
+}
+.burger .bar .hemjee:after{
+    background-color: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+}
+.burger .btn{
+display: none;
+}
+.burger .btn:checked ~ .menu{
+    max-height: 240px;
+}
+.burger .btn:checked ~ .bar .hemjee{
+   background-color: transparent;
+}
+.burger .btn:checked ~ .bar .hemjee::before{
+    transform: rotate(-45deg);
+    top: 0;
+}
+.burger .btn:checked ~ .bar .hemjee::after{
+    transform: rotate(45deg);
+    top: 0;
+}
+.menu{
+    margin: 10px ;
+}
