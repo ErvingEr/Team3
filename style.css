@@ -331,3 +331,105 @@ body{
     height: 309.49px;
     border-radius: 6%;
 }
+.back{
+    height: 100vh;
+    width: auto;
+    background-color:   rgb(216, 216, 230);
+}
+.wonder{
+    color: rgb(3, 3, 63);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.won{
+    display: flex;
+    justify-content: center;
+}
+.smallnest{
+    color: rgb(51, 50, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.nest{
+    display: flex;
+    justify-content: center;
+}
+.sizeimg{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.row1{
+    height: 417px;
+    width: 300px;
+    background-color:  rgb(216, 216, 230);
+    display: flex;
+    flex-direction: column;
+}
+.imgrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.limit{
+    width: 55vw;
+    height: 100vh;
+    background-color:   rgb(216, 216, 230);
+}
+.limitmove{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.imj{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ner{
+    display: flex;
+    justify-content: center;
+}
+.temuulen{
+    color: rgb(4, 4, 71);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 10px 0px 10px;
+}
+.ceo{
+    color: rgb(0, 162, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px 0px 10px;
+}
+.position{
+    display: flex;
+    justify-content: center;
+}
+.position1{
+    display: flex;
+    justify-content: center;
+    margin: 0px 40px 0px 40px;
+}
+.text{
+    color: rgb(2, 2, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.imgposition{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.position2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.orginal{
+    display: flex;
+    flex-direction: column;
+}
