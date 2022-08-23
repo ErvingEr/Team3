@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 body {
+<<<<<<< HEAD
     width: 100vw;
+=======
+    width: 100%;
+>>>>>>> aa4b7c3 (update)
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 .Top {
@@ -25,8 +27,81 @@ body {
     font-size: 50px;
 }
 .Sidebar {
-    width: auto;
-    height: 100px;    
+    width: 100%;
+    height: 10%;    
+}.names {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    align-items: flex-start;
+    gap: 30px;
+    color: white;
+}
+.Team-name {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+.UG2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.Home:hover {
+    display: flex;
+    justify-content: center;
+width: 5%;
+height: 20%;
+border:1px solid white;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member1:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member2:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member3:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member4:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member5:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 5%;
 }
 .names {
     width: 80%;
