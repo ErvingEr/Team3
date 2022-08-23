@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 body {
-<<<<<<< HEAD
-=======
     width: 100%;
->>>>>>> 6c23754c0a595e5d26901f894d5e9fbc29f8ff82
     display: flex;
     flex-direction: column;
 }
