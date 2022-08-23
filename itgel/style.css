@@ -3,7 +3,6 @@ body{
     display: flex;
     justify-content: center;
     background-color: darkblue;
-    border: 10px solid cyan;
 }
 .second-page{
     position: fixed;
@@ -97,7 +96,8 @@ body{
     opacity: 1;
     transition: 250ms;
     z-index: 5;
-}.second-page:checked ~ .container{
+}
+.second-page:checked ~ .container{
     transform: translateY(500px);
     width: 0px;
     height: 0px;
@@ -267,4 +267,16 @@ body{
 }
 .Me{
     margin-top: 150px;
+}
+.Go-Back{
+    display: flex;
+    width: fit-content
+    height: fit-content;
+}
+.BUTTON{
+    display: flex;
+    width: 60px;
+    height: 20px;
+    color: cyan;
+    background-color: lightblue;
 }
