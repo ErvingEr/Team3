@@ -41,6 +41,7 @@ body {
     gap: 30px;
 }
 .Team-name {
+    z-index: 1;
     width: 20%;
     height: 80%;
     display: flex;
@@ -48,6 +49,14 @@ body {
     align-items: flex-start;
     font-size: 30px;
     font-family: cursive;
+    color: white;
+}
+.UG2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
     color: white;
 }
 .UG2 {
@@ -103,14 +112,7 @@ border-radius: 5%;
 .names a {
     color: white;
 }
-.UG2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    color: white;
-}
+
 .bottom {
     width: 100%;
     height: 100vh;
@@ -119,30 +121,26 @@ border-radius: 5%;
     align-items: center;
     flex-direction: column;
 }
-
 .henyugev {
     width: 100%;
-    height: 90%;
+    height: 100%;
     background-color: rgb(194, 43, 93);
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .henyugev :first-child {
     display: block;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .bigtitle {
     width: 100%;
     height: 75%;
     font-size: 100px;
     color: white;
 }
-
 .box {
     width: 100px;
     height: 10px;
@@ -154,20 +152,6 @@ border-radius: 5%;
     color: white;
     display: flex;
     align-items: center;
-}
-
-.footer {
-    width: 100%;
-    height: 10%;
-    background-color: blue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer div {
-    font: caption ;
-    color: white;
 }
 .comment {
     width: 80%;
@@ -319,4 +303,32 @@ border-radius: 5%;
     width: 538.37px;
     height: 309.49px;
     border-radius: 6%;
+}
+.temuulen_ah {
+    position: absolute;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+    transition: 300ms;
+    opacity: 0;
+    z-index: 0;
+}
+.Team-name:hover + .temuulen_ah{
+    transform: translateY(120px);
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+}
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer div {
+    font: caption ;
+    color: white;
 }
