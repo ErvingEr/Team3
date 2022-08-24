@@ -293,12 +293,12 @@ border-radius: 5%;
 .Projects2{
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     margin-top: 0px;
 }
 .Khongoroo {
     height: fit-content;
+    width: fit-content;
 }
 .photo {
     display: flex;
@@ -307,6 +307,7 @@ border-radius: 5%;
 }
 .Me {
     height: fit-content;
+    width: fit-content;
 }
 .DC{
     width: 538.37px;
