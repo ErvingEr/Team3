@@ -205,7 +205,6 @@ border-radius: 5%;
     border: 3px solid black;
     border-radius: 100%;
 }
-
 .Topic{
     display: flex;
     justify-content: center;
@@ -275,16 +274,16 @@ border-radius: 5%;
     color: #393939;
 }
 .All:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Web:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Apps:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Icons:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Projects{
     width: 100%;
