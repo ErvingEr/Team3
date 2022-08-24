@@ -874,3 +874,12 @@ body{
   background-color: gray;
   color: #282826;
 }
+.sabo{
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hover{
+  display: flex;
+  justify-content: center;
+}
