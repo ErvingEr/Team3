@@ -187,19 +187,16 @@ border-radius: 5%;
     border-radius: 100%;
 }
 .Topic{
-    background-color: rgb(249, 222, 162);
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     z-index: 19;
+    margin-top: 70px;
     font-size: 50px;
-    height: 127.5px;
 }
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(249, 222, 162);
 }
 .Text{
     display: flex;
@@ -269,16 +266,12 @@ border-radius: 5%;
 .Icons:hover {
     background-color: lightblue;
 }
-.BIgcont {
-    background-color: rgb(249, 222, 162);
-}
 .Projects{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 80px;
-    background-color: rgb(249, 222, 162);
 }
 .Reactor{
     width: 538.37px;
@@ -293,20 +286,9 @@ border-radius: 5%;
 .Projects2{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     margin-top: 0px;
-}
-.Khongoroo {
-    height: fit-content;
-}
-.photo {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(249, 222, 162);
-}
-.Me {
-    height: fit-content;
 }
 .DC{
     width: 538.37px;
@@ -327,7 +309,7 @@ img
     left: 5%;
     width: 60px;
     height: 60px;
-    transition: 300ms;
+    transition: 300ms;/
     opacity: 0;
     z-index: 0;
 }
