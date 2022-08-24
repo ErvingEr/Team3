@@ -300,6 +300,10 @@ border-radius: 5%;
     height: 309.49px;
     border-radius: 6%;
 }
+img
+{
+    box-shadow: 0px 0px 30px rgb(19, 158, 158)
+}
 .temuulen_ah {
     position: absolute;
     left: 5%;
