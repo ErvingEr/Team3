@@ -3,7 +3,6 @@ body{
     display: flex;
     justify-content: center;
     background-color: darkblue;
-    border: 10px solid cyan;
 }
 .second-page{
     position: fixed;
@@ -25,7 +24,7 @@ body{
     box-shadow: 0px 0px 2px 2px blue;
 }
 .button1{
-    transition: 250ms;
+    transition: 300ms;
     color: cyan;
     display: flex;
     justify-content: center;
@@ -59,7 +58,7 @@ body{
     box-shadow: 0px 0px 2px 2px blue;
 }
 .Button2{
-    transition: 250ms;
+    transition: 300ms;
     color: cyan;
     display: flex;
     justify-content: center;
@@ -90,14 +89,15 @@ body{
     to {
       text-shadow: 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue, 0 0 80px blue;
     }
-  j49589}
+}
 .second-page:checked ~ .container2{
     width: 100%;
     height: 100vh;
     opacity: 1;
     transition: 250ms;
     z-index: 5;
-}.second-page:checked ~ .container{
+}
+.second-page:checked ~ .container{
     transform: translateY(500px);
     width: 0px;
     height: 0px;
@@ -267,4 +267,16 @@ body{
 }
 .Me{
     margin-top: 150px;
+}
+.Go-Back{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+.BUTTON{
+    display: flex;
+    width: 60px;
+    height: 20px;
+    color: cyan;
+    background-color: lightblue;
 }

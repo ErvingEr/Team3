@@ -3,27 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    width: 100vw;
-    height: 420vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
-
 .Top {
     background-color: rgb(83, 29, 134);
     width: auto;
     height: 50vh;
-    display: flex;
-    background-color: blueviolet;
-    width: auto;
-    height: 50vh;
-    display: flex;
 }
-
 .UG {
     width: 100%;
     display: flex;
@@ -31,12 +20,94 @@ body {
     align-items: center;
     color: white;
     font-size: 50px;
+    gap: 10%;
+    margin-top: 10%;
 }
-
 .Sidebar {
-    width: auto;
-    height: 100px;
-    border: 1px solid red;
+    width: 100%;
+    height: 10%;    
+    display: flex;
+    align-items: center;
+}.names {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    align-items: flex-start;
+    gap: 30px;
+}
+.Team-name {
+    z-index: 1;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+.UG2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+.UG2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+.Home:hover {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 8%;
+}
+.Member1:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member2:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member3:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member4:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 8%;
+}
+.Member5:hover {
+    display: flex;
+    justify-content: center;
+background-color: white;
+color: black;
+border-radius: 5%;
+}
+.names a {
+    color: white;
 }
 
 .bottom {
@@ -47,30 +118,26 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
 .henyugev {
     width: 100%;
-    height: 90%;
+    height: 100%;
     background-color: rgb(194, 43, 93);
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .henyugev :first-child {
     display: block;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
 .bigtitle {
     width: 100%;
     height: 75%;
     font-size: 100px;
     color: white;
 }
-
 .box {
     width: 100px;
     height: 10px;
@@ -82,20 +149,6 @@ body {
     color: white;
     display: flex;
     align-items: center;
-}
-
-.footer {
-    width: 100%;
-    height: 10%;
-    background-color: blue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer div {
-    font: caption ;
-    color: white;
 }
 .comment {
     width: 80%;
@@ -133,96 +186,12 @@ body {
     border: 3px solid black;
     border-radius: 100%;
 }
-.names {
-    width: 80%;
-    height: 80%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10%;
-    align-items: flex-start;
-    gap: 30px;
-    color: white;
-}
-.Team-name {
-    width: 20%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 30px;
-    font-family: cursive;
-    color: white;
-}
-.UG2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    color: white;
-}
-
-.Home:hover {
-    display: flex;
-    justify-content: center;
-width: 5%;
-height: 20%;
-border:1px solid white;
-background-color: white;
-color: black;
-border-radius: 8%;
-}
-.Member1:hover {
-    display: flex;
-    justify-content: center;
-background-color: white;
-color: black;
-border-radius: 8%;
-}
-.Member2:hover {
-    display: flex;
-    justify-content: center;
-background-color: white;
-color: black;
-border-radius: 8%;
-}
-.Member3:hover {
-    display: flex;
-    justify-content: center;
-background-color: white;
-color: black;
-border-radius: 8%;
-}
-.Member4:hover {
-    display: flex;
-    justify-content: center;
-background-color: white;
-color: black;
-border-radius: 8%;
-}
-.Member5:hover {
-    display: flex;
-    justify-content: center;
-background-color: white;
-color: black;
-border-radius: 5%;
-}
-body{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    background-color: #FFDD99;
-    flex-direction: column;
-    border: 10px solid brown;
-}
 .Topic{
     display: flex;
     justify-content: center;
     z-index: 19;
     margin-top: 70px;
     font-size: 50px;
-    border: 5px solid brown;
-    background-color: brown;
 }
 .container {
     display: flex;
@@ -286,16 +255,16 @@ body{
     color: #393939;
 }
 .All:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Web:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Apps:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Icons:hover {
-    background-color: white;
+    background-color: lightblue;
 }
 .Projects{
     width: 100%;
@@ -330,4 +299,32 @@ body{
     width: 538.37px;
     height: 309.49px;
     border-radius: 6%;
+}
+.temuulen_ah {
+    position: absolute;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+    transition: 300ms;
+    opacity: 0;
+    z-index: 0;
+}
+.Team-name:hover + .temuulen_ah{
+    transform: translateY(120px);
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+}
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer div {
+    font: caption ;
+    color: white;
 }
