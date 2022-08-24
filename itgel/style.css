@@ -24,7 +24,7 @@ body{
     box-shadow: 0px 0px 2px 2px blue;
 }
 .button1{
-    transition: 250ms;
+    transition: 300ms;
     color: cyan;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ body{
     box-shadow: 0px 0px 2px 2px blue;
 }
 .Button2{
-    transition: 250ms;
+    transition: 300ms;
     color: cyan;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ body{
     to {
       text-shadow: 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue, 0 0 80px blue;
     }
-  j49589}
+}
 .second-page:checked ~ .container2{
     width: 100%;
     height: 100vh;
