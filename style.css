@@ -453,3 +453,7 @@ img
     display: flex;
     flex-direction: column;
 }
+.helsenug {
+    display: flex;
+    justify-content: center;
+}
