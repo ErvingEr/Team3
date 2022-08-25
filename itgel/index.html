@@ -49,14 +49,17 @@
             </div>
         </div>
     </div>
-    <div class="container4">
-        <div class="contact">
-          <div class="contact1">
-            <div class="title">Contact</div>
-            <input class="name" type="text" placeholder="  Name"></input>
-            <input class="email" type="text" placeholder="  Email"></input>
-            <input class="messege" type="text" placeholder="  Messege"></input>
-            <button class="button">Submit</button>
-          </div>
+    <div class="wrapper">
+      <form class="form">
+          <div class="pageTitle title">Contact Me</div>
+          <div class="secondaryTitle title">Please fill this form to contact me.</div>
+          <input type="text" class="name formEntry" placeholder="Name" />
+          <input type="text" class="email formEntry" placeholder="Email"/>
+          <textarea class="message formEntry" placeholder="Message"></textarea>
+          <input type="checkbox" class="termsConditions" value="Term">
+          <label style="color: grey" for="terms"><span style="color: #0e3721"></span><span style="color: #0e3721"></span></label><br>
+          <button class="submit formEntry" onclick="thanks()">Submit</button>
+      </form>
+    </div>
 </body>
 </html>
