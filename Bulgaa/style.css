@@ -152,7 +152,6 @@ animation-name: ANIMe;
 animation-duration: 40s;
 animation-timing-function: linear;
 animation-iteration-count: infinite;
-;
 }
 @keyframes  ANIMe  {
       0% {background-color:red;}
