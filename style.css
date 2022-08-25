@@ -157,49 +157,93 @@ border-radius: 5%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    "header header"
+    "header1 header1"
     "side sidebar1"
     "side1 sidebar2";
 }
+.header1 {
+    grid-area: header1;
+}
 .header {
-    grid-area: header;
-    display: inline;
+    height: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .side {
     grid-area: side;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sidebar1 {
     grid-area: sidebar1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .side1 {
     grid-area: side1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sidebar2 {
     grid-area: sidebar2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .picture {
     width: 150px;
     height: 150px;
-    border: 3px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvJj0dX9AOSrWTsJ9TWv_28bDR716yTbsXug&usqp=CAU);
+    border-radius: 100%;
+    background-size: 150px;
+}
+.picture1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(https://i1.sndcdn.com/avatars-000017159320-g4t3aa-t500x500.jpg);
+    background-size: 150px;
     border-radius: 100%;
 }
+.picture2 {
+    width: 150px;
+    height: 150px;
+    background-image: url(https://i.natgeofe.com/k/093c14b4-978e-41f7-b1aa-3aff5d1c608a/gray-wolf-closeup_3x4.jpg);
+    background-size: 150px;
+    border-radius: 100%;
+}
+.picture3 {
+    width: 150px;
+    height: 150px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png);
+    background-size: 150px;
+    border-radius: 100%;
+}
+.picture4 {
+    width: 150px;
+    height: 150px;
+    background-image: url(https://yt3.ggpht.com/ytc/AKedOLSxqunycaI44jIKLrM5C6RJkDNrJOqP5Dcu6Q9l=s900-c-k-c0x00ffffff-no-rj);
+    border-radius: 100%;
+    background-size: 150px;
+}
+.BIgcont{
+    background-color: antiquewhite;
+}
 .Topic{
-    background-color: rgb(249, 222, 162);
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     z-index: 19;
+    margin-top: 70px;
     font-size: 50px;
-    height: 127.5px;
 }
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(249, 222, 162);
 }
 .Text{
     display: flex;
@@ -269,16 +313,12 @@ border-radius: 5%;
 .Icons:hover {
     background-color: lightblue;
 }
-.BIgcont {
-    background-color: rgb(249, 222, 162);
-}
 .Projects{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 80px;
-    background-color: rgb(249, 222, 162);
 }
 .Reactor{
     width: 538.37px;
@@ -321,7 +361,7 @@ border-radius: 5%;
 }
 img
 {
-    box-shadow: 0px 0px 30px rgb(19, 158, 158)
+    box-shadow: 0px 0px 30px brown;
 }
 .temuulen_ah {
     position: absolute;
@@ -456,4 +496,24 @@ img
 .helsenug {
     display: flex;
     justify-content: center;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+}
+.side1 {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar2 {
+    display: flex;
+    flex-direction: column;
+}
+.Bagiingishuun {
+    font-size: 20px;
+    color: rgb(193, 193, 25);
 }
